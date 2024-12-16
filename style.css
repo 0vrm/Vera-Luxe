@@ -1,0 +1,135 @@
+/* General Reset */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f8f9fa;
+    line-height: 1.6;
+}
+
+/* Header Styling */
+header {
+    background-color: #292b2c;
+    color: #fff;
+    padding: 30px 20px;
+    text-align: center;
+}
+
+nav a {
+    color: #f9c74f;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    font-size: 1.1em;
+    transition: color 0.3s ease-in-out;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: #ffdb70;
+}
+
+/* Main Content */
+main {
+    padding: 30px 20px;
+    text-align: center;
+}
+
+section {
+    margin-bottom: 50px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
+}
+
+section h2 {
+    color: #343a40;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+
+/* Image Gallery */
+.image-gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.image {
+    width: 280px;
+    height: 380px;
+    object-fit: cover;
+    border: 3px solid #e9ecef;
+    border-radius: 15px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.image:hover {
+    transform: scale(1.05);
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.3);
+}
+
+/* Footer Styling */
+footer {
+    background-color: #292b2c;
+    color: #f8f9fa;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Social Icons */
+.social-icons a {
+    color: #f8f9fa;
+    font-size: 1.5em;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: #f9c74f;
+}
+
+/* Featured Products Section */
+.featured-products {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.product-grid {
+    display: flex;
+    flex-direction: column;
+    /* Stack products vertically */
+    align-items: center;
+    gap: 50px;
+    /* Larger gap between products */
+}
+
+.product-item {
+    width: 80%;
+    /* Adjust width */
+    max-width: 500px;
+    /* Set max-width for large screens */
+    background-color: #fff;
+    border: 1px solid #e9ecef;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product-item img {
+    width: 100%;
+    height: auto;
+    /* Maintain aspect ratio */
+    object-fit: cover;
+    border-radius: 15px 15px 0 0;
+}
+
+.product-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.2);
+}
